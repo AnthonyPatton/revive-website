@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/utilities.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Revive | Meals For Everyone</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="container flex">
+      <h1 class="logo">Revive</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <!-- Showcase -->
+  <section class="showcase">
+    <div class="container grid">
+      <div class="showcase-text">
+        <h1>Helping Our Communities</h1>
+        <p>Revive is a social services nonprofit agency that works to provide meals to the homeless and less fortunate</p>
+        <a href="volunteer.html" class="btn btn-outline">Donate</a>
+      </div>
+
+      <div class="showcase-form card">
+        <h2>News Letter Sign-Up</h2>
+        <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden">
+            <label>Don't fill this out if you're human: <input name="bot-field"/></label>
+          </p>
+          <div class="form-control">
+            <input type="text" name="name" placeholder="Name" required>
+          </div>
+          <div class="form-control">
+            <input type="text" name="company" placeholder="Company Name" required>
+          </div>
+          <div class="form-control">
+            <input type="email" name="email" placeholder="Email" required>
+          </div>
+          <input type="submit" value="Send" class="btn btn-primary">
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container">
+      <h3 class="stats-heading text-center my-1">
+        Making a difference never felt so rewarding more than in the present
+      </h3>
+
+      <div class="grid grid-3 text-center my-4">
+        <div>
+          <i class="fas fa-utensils fa-3x"></i>
+          <h3>91,768</h3>
+          <p class="text-secondary">Meals dished out</p>
+        </div>
+        <div>
+          <i class="fas fa-shopping-bag fa-3x"></i>
+          <h3>581</h3>
+          <p class="text-secondary">Hygiene kits handed out</p>
+        </div>
+        <div>
+          <i class="fas fa-socks fa-3x"></i>
+          <h3>3,652</h3>
+          <p class="text-secondary">Pairs given</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cli -->
+  <section class="cli">
+    <div class="container grid">
+      <img src="images/Feed.jpg" alt="">
+      <div class="card">
+        <h3>Students welcome to help!</h3>
+      </div>
+      <div class="card">
+        <h3>We all could use a hand sometime!</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cloud -->
+  <section class="cloud bg-primary my-2 py-2">
+    <div class="container grid">
+      <div class="text-center">
+        <h2 class="lg">Help End Poverty</h2>
+        <p class="lead my-1">We must all do our part by offering relief and delivering meals to those less fortunate</p>
+        <a href="volunteer.html" class="btn btn-dark">Read More</a>
+      </div>
+      <img src="images/jimmy.jpg" alt="">
+    </div>
+  </section>
+
+  <!-- Languages -->
+  <section class="languages">
+    <h2 class="md text-center my-2">
+      Former Contributors
+    </h2>
+    <div class="container flex">
+      <div class="card">
+        <h4>Red Cross</h4>
+        <img src="images/logos/redcross.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Coats4Kids</h4>
+        <img src="images/logos/coats.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Salvation </h4>
+        <img src="images/logos/salv.jpg" alt="">
+      </div>
+      <div class="card">
+        <h4>Union</h4>
+        <img src="images/logos/union.png" alt="">
+      </div>
+      <div class="card">
+        <h4>Hopelink</h4>
+        <img src="images/logos/hope.png" alt="">
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer bg-dark py-5">
+    <div class="container grid grid-3">
+      <div>
+        <h1>
+          Revive
+        </h1>
+        <p>Copyright &copy; 2020</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+      <div class="social">
+        <a href="#"><i class="fab fa-github fa-2x"></i></a>
+        <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
